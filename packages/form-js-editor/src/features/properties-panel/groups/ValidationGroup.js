@@ -30,6 +30,10 @@ const VALIDATION_TYPE_OPTIONS = {
     value: 'phone',
     label: 'Phone',
   },
+  zipcode: {
+    value: 'zipcode',
+    label: 'Zipcode',
+  },
 };
 
 export function ValidationGroup(field, editField) {

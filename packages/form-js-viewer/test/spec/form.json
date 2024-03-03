@@ -58,6 +58,22 @@
       }
     },
     {
+      "key": "zipcode",
+      "label": "Zip Code",
+      "type": "textfield",
+      "validate": {
+        "validationType": "zipcode"
+      }
+    },
+    {
+      "key": "phone",
+      "label": "Phone Number",
+      "type": "phone",
+      "validate": {
+        "validationType": "phone"
+      }
+    },
+    {
       "description": "An invoice number in the format: C-123.",
       "key": "invoiceNumber",
       "label": "Invoice Number",

@@ -18,7 +18,7 @@ import { PaletteEntry } from './PaletteEntry';
  * @typedef { {
  *  label: string,
  *  type: string,
- *  group: ('basic-input'|'selection'|'presentation'|'action'),
+ *  group: ('basic-input'| 'address' | 'selection'|'presentation'|'action'),
  *  icon: preact.FunctionalComponent,
  *  iconUrl: string
  * } } PaletteEntry
@@ -28,6 +28,10 @@ export const PALETTE_GROUPS = [
   {
     label: 'Basic input',
     id: 'basic-input'
+  },
+  {
+    label: 'Address',
+    id: 'address'
   },
   {
     label: 'Selection',

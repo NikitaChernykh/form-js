@@ -15,3 +15,5 @@ export function TemplatedInputAdorner(props) {
   return <InputAdorner { ...props } pre={ evaluatedPre } post={ evaluatedPost } />;
 
 }
+
+export { InputAdorner };

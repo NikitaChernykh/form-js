@@ -16,9 +16,11 @@ import { Taglist } from './form-fields/Taglist';
 import { Text } from './form-fields/Text';
 import { Html } from './form-fields/Html';
 import { Textfield } from './form-fields/Textfield';
+import { Zipcode } from './form-fields/Zipcode';
+import { Phone } from './form-fields/Phone';
+import { Address } from './form-fields/Address';
 import { Textarea } from './form-fields/Textarea';
 import { Table } from './form-fields/Table';
-
 import { Label } from './Label';
 import { Description } from './Description';
 import { Errors } from './Errors';
@@ -52,6 +54,9 @@ export {
   Text,
   Html,
   Textfield,
+  Zipcode,
+  Address,
+  Phone,
   Textarea,
   Table
 };
@@ -68,6 +73,9 @@ export const formFields = [
   Select,
   Taglist,
   Textfield,
+  Zipcode,
+  Address,
+  Phone,
   Textarea,
   Text,
   Image,

@@ -40,6 +40,9 @@ export const iconsByType = (type) => {
     text: TextIcon,
     html: HTMLIcon,
     textfield: TextfieldIcon,
+    zipcode: TextfieldIcon,
+    address: TextfieldIcon,
+    phone: TextfieldIcon,
     textarea: TextareaIcon,
     table: TableIcon,
     default: FormIcon

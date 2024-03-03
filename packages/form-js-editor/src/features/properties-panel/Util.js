@@ -85,6 +85,8 @@ export const INPUTS = [
   'select',
   'taglist',
   'textfield',
+  'zipcode',
+  'phone',
   'textarea'
 ];
 
