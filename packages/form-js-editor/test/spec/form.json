@@ -16,31 +16,26 @@
       "showOutline": true,
       "components": [
         {
-          "id": "Addressfield_1",
           "type": "textfield",
           "key": "AddressInfo1",
           "label": "Address 1"
         },
         {
-          "id": "Addressfield_2",
           "type": "textfield",
           "key": "AddressInfo2",
           "label": "Address 2"
         },
         {
-          "id": "Cityfield",
           "type": "textfield",
           "key": "CityInfo",
           "label": "City"
         },
         {
-          "id": "Statefield",
           "type": "textfield",
           "key": "StateInfo",
           "label": "State"
         },
         {
-          "id": "Zipcodefield",
           "type": "zipcode",
           "key": "zipcode",
           "label": "Zipcode"

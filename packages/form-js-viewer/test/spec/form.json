@@ -10,7 +10,7 @@
       "content": "<h1>My HTML</h1><p style='color: green'>My styled HTML content</p>"
     },
     {
-    "type": "group",
+      "type": "group",
       "label": "Supplementary Information",
       "path": "invoiceDetails",
       "showOutline": true,
@@ -55,22 +55,6 @@
       "type": "textfield",
       "validate": {
         "required": true
-      }
-    },
-    {
-      "key": "zipcode",
-      "label": "Zip Code",
-      "type": "textfield",
-      "validate": {
-        "validationType": "zipcode"
-      }
-    },
-    {
-      "key": "phone",
-      "label": "Phone Number",
-      "type": "phone",
-      "validate": {
-        "validationType": "phone"
       }
     },
     {
